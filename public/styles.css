@@ -1,0 +1,132 @@
+header  {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(136, 23, 23);
+    height: 80px;
+}
+
+input {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 27px;
+    margin-right: 50px;
+    border-radius: 20px;
+    border-color: #31319A;
+    background-color: #FFCE31;
+}
+
+.submit {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 27px;
+    margin-right: 5px;
+    border-radius: 20px;
+}
+
+#pokedex {
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
+.scroll_list {
+    background-color: rgb(46, 45, 45);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    width: 150px;
+    overflow-y: scroll; 
+    white-space: nowrap;
+    color: white;
+ }
+
+ .scroll_list::-webkit-scrollbar{
+    display: none;
+ }
+
+ .pokemon_list {
+    display: flex;
+    justify-content: center;
+    position: relative;
+ }
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(103, 103, 112);
+}
+
+.poke_box {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding: 200px;
+    display: flex;  
+  flex-wrap: wrap;
+
+}
+
+.pokeImages {
+    height: 150px;
+    width: 150px;
+}
+
+.pokecolor:hover {
+background-color: #FFCE31;
+color: black;
+}
+
+.nextbtn:hover {
+    background-color: #FFCE31;
+    color: black;
+    
+}
+
+.nextbtn {
+    border-radius: 20px;
+}
+
+.lastbtn {
+    border-radius: 20px;
+}
+
+.lastbtn:hover {
+    background-color: #FFCE31;
+    color: black;
+    
+}
+
+h2 {
+    color: rgb(12, 12, 12);
+}
+
+.addBtn {
+    margin-left: 50px;
+}
+
+#team_list {
+    background-color: rgb(46, 45, 45);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 80px;
+    color: white;
+    width: 93vw;
+    display: flex;
+    justify-content: row;
+    justify-content: space-evenly;
+    word-spacing: 2em;
+}
+
+.textcolor{
+   color: white
+}
+
+#pokeball {
+    height: 100px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 458px;
+}
